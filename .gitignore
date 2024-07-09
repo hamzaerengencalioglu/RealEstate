@@ -1,0 +1,299 @@
+# General
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+vendor/
+jspm_packages/
+__pycache__/
+.target/
+lib/
+
+# Compiled files and packages
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.dylib
+*.pyc
+*.pyo
+*.jar
+*.war
+*.ear
+*.apk
+*.ipa
+*.gem
+*.lock
+*.hprof
+*.pid
+*.seed
+*.pid.lock
+*.dSYM/
+*.bin
+*.out
+*.elf
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.tar
+*.gz
+*.7z
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.old
+*.orig
+
+# General
+*~
+*.tmp
+*.temp
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.nib
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+*.sublime-settings
+*.sublime_metrics
+*.sublime_session
+*.tmproj
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyo
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+lib/
+lib64/
+site-packages/
+
+# Java
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+hs_err_pid*
+
+# C++
+*.out
+*.o
+*.lo
+*.la
+*.al
+*.dylib
+*.so
+*.class
+*.dll
+*.exe
+*.sdf
+*.cproject
+*.project
+*.d
+*.obj
+*.elf
+
+# C#
+[Bb]in/
+[Oo]bj/
+*.userprefs
+*.pidb
+*.suo
+*.userosscache
+*.rsuser
+*.sln.docstates
+*.vspx
+*.psess
+*.vsp
+*.pidb
+*.tlog
+*.tlog
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+lerna-debug.log
+.pnp
+.pnp.js
+*.tsbuildinfo
+.cache/
+
+# Ruby
+*.gem
+*.rbc
+.gem/
+.bundle/
+.config/
+vendor/bundle
+lib/bundler/man/
+.rvmrc
+.rvm/
+.rbenv-version
+.ruby-version
+.ruby-gemset
+
+# Rust
+*.rs.bk
+*.rustc
+
+# Go
+bin/
+vendor/
+Godeps/
+*.mod
+*.sum
+
+# PHP
+vendor/
+composer.lock
+composer.phar
+
+# Swift
+.build/
+.swift-version
+Package.resolved
+
+# Objective-C
+*.hmap
+*.ipa
+.build/
+
+# Lua
+*.luac
+
+# Haskell
+*.hi
+*.chi
+*.chs.h
+dist/
+dist-*/
+
+# Kotlin
+*.kts
+*.kt
+
+# Scala
+*.class
+.cache/
+lib_managed/
+src_managed/
+target/
+project/target/
+project/project/
+dist/
+logs/
+
+# Elixir
+*.ez
+deps/
+_build/
+erl_crash.dump
+
+# F#
+*.fsd
+*.fsproj
+*.userprefs
+
+# Dart
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Flutter
+ios/Flutter/Generated.xcconfig
+ios/Flutter/Generated.xcconfig
+
+# Android
+.gradle/
+local.properties
+.idea/
+*.iml
+.gradle/
+local.properties
+.idea/
+*.iml
+*.apk
+*.ap_
+*.keystore
+build/
+output/
+
+# Web files
+dist/
+tmp/
+.cache/
+.parcel-cache/
+.cache-loader/
+.vscode/
+
+# Miscellaneous
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.old
+*.orig
+
+# End of general gitignore
