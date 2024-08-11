@@ -2,18 +2,21 @@
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Admin/Index.cshtml";
+    int count = 0;
 }
+
+
 <div class="container-fluid pt-4 px-4">
     <div class="row g-4">
         <div class="col-12">
             <div class="bg-light rounded h-100 p-4">
-                <h6 class="mb-4">Advertisement List</h6>
+                <h6 class="mb-4">Listing List</h6>
                 <div class="table-responsive">
                     <table class="table">
                         <thead>
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">Advertisement Title</th>
+                                <th scope="col">Listing Title</th>
                                 <th scope="col">City</th>
                                 <th scope="col">County</th>
                                 <th scope="col">Category</th>
@@ -22,30 +25,33 @@
                                 <th scope="col">Delete</th>
                                 <th scope="col">Update</th>
                                 <th scope="col">See On Website</th>
+                                <th scope="col">Deal Of The Day</th>
                             </tr>
                         </thead>
                         <tbody>
                             @foreach (var item in Model)
                             {
+                                count++;
                                 <tr>
-                                    <th scope="row">@item.productID</th>
-                                    <td>@item.title</td>
-                                    <td>@item.city</td>
-                                    <td>@item.district</td>
-                                    <td>@item.categoryName</td>
-                                    <td>@item.price</td>
-                                    <td>@item.type</td>
+                                    <th scope="row">@count</th>
+                                    <td>@item.Title</td>
+                                    <td>@item.City</td>
+                                    <td>@item.District</td>
+                                    <td>@item.CategoryName</td>
+                                    <td>@item.Price</td>
+                                    <td>@item.Type</td>
+                                    <td><a href="/Product/DeleteProduct/@item.ProductID" class="btn btn-outline-danger">Delete</a></td>
+                                    <td><a href="/Product/UpdateProduct/@item.ProductID" class="btn btn-outline-success">Update</a></td> 
+                                    <td><a href="/Product/ProductDetail/@item.ProductID" class="btn btn-outline-primary">See On Website</a></td>
                                     <td>
-                                        <a href="/Product/DeleteProduct/@item.productID"
-                                           class="btn btn-outline-danger">Delete</a>
-                                    </td>
-                                    <td>
-                                        <a href="/Product/UpdateProduct/@item.productID"
-                                           class="btn btn-outline-success">Update</a>
-                                    </td> 
-                                    <td>
-                                        <a href="/Product/ProductDetail/@item.productID"
-                                           class="btn btn-outline-primary">See On Website</a>
+                                        @if(item.DealOfTheDay == true)
+                                        {
+                                            <a href="/Product/ProductDealOfTheDayStatusChangeToFalse/@item.ProductID" class="btn btn-outline-secondary">Deactivate</a>
+                                        }
+                                        @if (item.DealOfTheDay == false)
+                                        {
+                                            <a href="/Product/ProductDealOfTheDayStatusChangeToTrue/@item.ProductID" class="btn btn-outline-warning">Activate</a>
+                                        }
                                     </td>
 
                                 </tr>

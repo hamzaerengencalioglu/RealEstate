@@ -1,7 +1,6 @@
-﻿
-
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using RealEstate_Dapper_UI.Dtos.ServiceDtos;
 using RealEstate_Dapper_UI.Dtos.WhoWeAreDtos;
 
 namespace RealEstate_Dapper_UI.ViewComponents.HomePage
@@ -27,7 +26,7 @@ namespace RealEstate_Dapper_UI.ViewComponents.HomePage
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
                 var jsonData2 = await responseMessage2.Content.ReadAsStringAsync();
 
-                var value = JsonConvert.DeserializeObject<List<ResultWhoAreDetailDto>>(jsonData);
+                var value = JsonConvert.DeserializeObject<List<ResultWhoWeAreDetailDto>>(jsonData);
                 var value2 = JsonConvert.DeserializeObject<List<ResultServiceDto>>(jsonData2);
 
                 ViewBag.title = value.Select(x => x.Title).FirstOrDefault();
