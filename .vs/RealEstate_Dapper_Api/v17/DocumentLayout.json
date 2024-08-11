@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\dtos\\todolistdtos\\updatetodolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\dtos\\todolistdtos\\updatetodolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\controllers\\todolistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\controllers\\todolistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\repositories\\todolistrepositories\\todolistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\repositories\\todolistrepositories\\todolistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\repositories\\todolistrepositories\\itodolistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\repositories\\todolistrepositories\\itodolistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\dtos\\todolistdtos\\getbyidtodolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\dtos\\todolistdtos\\getbyidtodolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\dtos\\todolistdtos\\resulttodolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\dtos\\todolistdtos\\resulttodolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\dtos\\todolistdtos\\createtodolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\dtos\\todolistdtos\\createtodolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Program.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Program.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T22:04:38.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateToDoListDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\UpdateToDoListDto.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\UpdateToDoListDto.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\UpdateToDoListDto.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\UpdateToDoListDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T21:05:35.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResultToDoListDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\ResultToDoListDto.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\ResultToDoListDto.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\ResultToDoListDto.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\ResultToDoListDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T21:05:32.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateToDoListDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\CreateToDoListDto.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\CreateToDoListDto.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\CreateToDoListDto.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\CreateToDoListDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T21:05:27.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDoListsController.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Controllers\\ToDoListsController.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Controllers\\ToDoListsController.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Controllers\\ToDoListsController.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Controllers\\ToDoListsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T20:57:17.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetByIDToDoListDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\GetByIDToDoListDto.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\GetByIDToDoListDto.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\GetByIDToDoListDto.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Dtos\\ToDoListDtos\\GetByIDToDoListDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T20:51:59.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ToDoListRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Repositories\\ToDoListRepositories\\ToDoListRepository.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Repositories\\ToDoListRepositories\\ToDoListRepository.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Repositories\\ToDoListRepositories\\ToDoListRepository.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Repositories\\ToDoListRepositories\\ToDoListRepository.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAkwBoAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:47:54.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IToDoListRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Repositories\\ToDoListRepositories\\IToDoListRepository.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Repositories\\ToDoListRepositories\\IToDoListRepository.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Repositories\\ToDoListRepositories\\IToDoListRepository.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Repositories\\ToDoListRepositories\\IToDoListRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:47:02.177Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
