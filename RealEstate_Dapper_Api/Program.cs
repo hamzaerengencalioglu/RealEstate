@@ -1,3 +1,4 @@
+using RealEstate_Dapper_Api.Hubs;
 using RealEstate_Dapper_Api.Models.DapperContext;
 using RealEstate_Dapper_Api.Repositories.BottomGridRepositories;
 using RealEstate_Dapper_Api.Repositories.CategoryRepository;
@@ -10,6 +11,7 @@ using RealEstate_Dapper_Api.Repositories.StatisticsRepositories;
 using RealEstate_Dapper_Api.Repositories.TestimonialRepositories;
 using RealEstate_Dapper_Api.Repositories.ToDoListRepositories;
 using RealEstate_Dapper_Api.Repositories.WhoWeAreRepository;
+using System.Security.Cryptography.Xml;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +29,21 @@ builder.Services.AddTransient<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddTransient<IContactRepository, ContactRepository>();
 builder.Services.AddTransient<IToDoListRepository, ToDoListRepository>();
 
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("CorsPolicy", builder =>
+    {
+        builder.AllowAnyHeader()
+               .AllowAnyMethod()
+               .SetIsOriginAllowed((host) => true)
+               .AllowCredentials();
+
+    });
+});
+
+builder.Services.AddHttpClient();
+builder.Services.AddSignalR();
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -40,10 +57,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("CorsPolicy");
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapHub<SignalRHub>("/signalrhub");
+//localhost:1234/swagger/category/index
+//localhost:1234/signalrhub
 
 app.Run();
