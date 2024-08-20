@@ -10,7 +10,6 @@ namespace RealEstate_Dapper_Api.Controllers
     public class CategoriesController : ControllerBase
     {
         private readonly ICategoryRepository _categoryRepository;
-
         public CategoriesController(ICategoryRepository categoryRepository)
         {
             _categoryRepository = categoryRepository;
@@ -19,29 +18,26 @@ namespace RealEstate_Dapper_Api.Controllers
         [HttpGet]
         public async Task<IActionResult> CategoryList()
         {
-            var values = await _categoryRepository.GetAllCategoryAsync();
+            var values = await _categoryRepository.GetAllCategory();
             return Ok(values);
-
         }
         [HttpPost]
         public async Task<IActionResult> CreateCategory(CreateCategoryDto createCategoryDto)
         {
-            _categoryRepository.CreateCategory(createCategoryDto);
-            return Ok("The Category Was Succesfully Added");
+            await _categoryRepository.CreateCategory(createCategoryDto);
+            return Ok("Kategori Başarılı Bir Şekilde Eklendi");
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCategory(int id)
         {
-            _categoryRepository.DeleteCategory(id);
-            return Ok("The Category Was Succesfully Deleted");
+            await _categoryRepository.DeleteCategory(id);
+            return Ok("Kategori Başarılı Bir Şekilde Silindi");
         }
         [HttpPut]
-
         public async Task<IActionResult> UpdateCategory(UpdateCategoryDto updateCategoryDto)
         {
-            _categoryRepository.UpdateCategory(updateCategoryDto);
-            return Ok("The Category Was Succesfully Updated");
-
+            await _categoryRepository.UpdateCategory(updateCategoryDto);
+            return Ok("Kategori Başarıyla Güncellendi");
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetCategory(int id)
@@ -49,8 +45,5 @@ namespace RealEstate_Dapper_Api.Controllers
             var value = await _categoryRepository.GetCategory(id);
             return Ok(value);
         }
-
-
-
     }
 }

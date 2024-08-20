@@ -12,11 +12,11 @@ namespace RealEstate_Dapper_Api.Controllers
     public class LoginController : ControllerBase
     {
         private readonly Context _context;
-
         public LoginController(Context context)
         {
             _context = context;
         }
+
 
         [HttpPost]
         public async Task<IActionResult> SignIn(CreateLoginDto loginDto)
@@ -28,8 +28,9 @@ namespace RealEstate_Dapper_Api.Controllers
             parameters.Add("@password", loginDto.Password);
             using (var connection = _context.CreateConnection())
             {
-                var values = await connection.QueryFirstOrDefaultAsync<CreateLoginDto>(query,parameters);
-                var values2 = await connection.QueryFirstAsync<GetAppUserIdDto>(query2,parameters);
+                var values = await connection.QueryFirstOrDefaultAsync<CreateLoginDto>(query, parameters);
+                var values2 = await connection.QueryFirstAsync<GetAppUserIdDto>(query2, parameters);
+
                 if (values != null)
                 {
                     GetCheckAppUserViewModel model = new GetCheckAppUserViewModel();
@@ -40,7 +41,7 @@ namespace RealEstate_Dapper_Api.Controllers
                 }
                 else
                 {
-                    return Ok("Unsuccessful");
+                    return Ok("Başarısız");
                 }
             }
         }

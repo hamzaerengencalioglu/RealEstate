@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using RealEstate_Dapper_Api.Dtos.CategoryDtos;
 using RealEstate_Dapper_Api.Dtos.WhoWeAreDetailDtos;
+using RealEstate_Dapper_Api.Repositories.CategoryRepository;
 using RealEstate_Dapper_Api.Repositories.WhoWeAreRepository;
 
 namespace RealEstate_Dapper_Api.Controllers
@@ -11,7 +12,6 @@ namespace RealEstate_Dapper_Api.Controllers
     public class WhoWeAreDetailController : ControllerBase
     {
         private readonly IWhoWeAreDetailRepository _whoWeAreDetailRepository;
-
         public WhoWeAreDetailController(IWhoWeAreDetailRepository whoWeAreDetailRepository)
         {
             _whoWeAreDetailRepository = whoWeAreDetailRepository;
@@ -20,32 +20,29 @@ namespace RealEstate_Dapper_Api.Controllers
         [HttpGet]
         public async Task<IActionResult> WhoWeAreDetailList()
         {
-            var values = await _whoWeAreDetailRepository.GetAllWhoWeAreDetailAsync();
+            var values = await _whoWeAreDetailRepository.GetAllWhoWeAreDetail();
             return Ok(values);
-
         }
         [HttpPost]
         public async Task<IActionResult> CreateWhoWeAreDetail(CreateWhoWeAreDetailDto createWhoWeAreDetailDto)
         {
-            _whoWeAreDetailRepository.CreateWhoWeAreDetail(createWhoWeAreDetailDto);
-            return Ok("About Us Section Was Succesfully Added");
+            await _whoWeAreDetailRepository.CreateWhoWeAreDetail(createWhoWeAreDetailDto);
+            return Ok("Hakkımızda Kısmı Başarılı Bir Şekilde Eklendi");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteWhoWeAreDetail(int id)
         {
-            _whoWeAreDetailRepository.DeleteWhoWeAreDetail(id);
-            return Ok("About Us Section Was Succesfully Deleted");
+            await _whoWeAreDetailRepository.DeleteWhoWeAreDetail(id);
+            return Ok("Hakkımızda Kısmı Başarılı Bir Şekilde Silindi");
         }
         [HttpPut]
-
         public async Task<IActionResult> UpdateWhoWeAreDetail(UpdateWhoWeAreDetailDto updateWhoWeAreDetailDto)
         {
-            _whoWeAreDetailRepository.UpdateWhoWeAreDetail(updateWhoWeAreDetailDto);
-            return Ok("About Us Section Was Succesfully Updated");
-
+            await _whoWeAreDetailRepository.UpdateWhoWeAreDetail(updateWhoWeAreDetailDto);
+            return Ok("Hakkımızda Kısmı Başarıyla Güncellendi");
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetCategory(int id)
+        public async Task<IActionResult> GetWhoWeAreDetail(int id)
         {
             var value = await _whoWeAreDetailRepository.GetWhoWeAreDetail(id);
             return Ok(value);

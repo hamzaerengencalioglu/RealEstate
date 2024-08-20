@@ -13,22 +13,21 @@ namespace RealEstate_Dapper_Api.Repositories.ServiceRepository
         {
             _context = context;
         }
-        public async void CreateService(CreateServiceDto createServiceDto)
+        public async Task CreateService(CreateServiceDto createServiceDto)
         {
-            string query = @"insert into Service (ServiceName,ServiceStatus) values 
-                            (@serviceName , @serviceStatus)";
+            string query = "insert into Service (ServiceName,ServiceStatus) values (@serviceName,@serviceStatus)";
             var parameters = new DynamicParameters();
             parameters.Add("@serviceName", createServiceDto.ServiceName);
-            parameters.Add("@serviceStatus" , true);
+            parameters.Add("@serviceStatus", true);
             using (var connection = _context.CreateConnection())
             {
                 await connection.ExecuteAsync(query, parameters);
             }
         }
 
-        public async void DeleteService(int id)
+        public async Task DeleteService(int id)
         {
-            string query = "Delete From Service Where ServiceID= @serviceID";
+            string query = "Delete From Service Where ServiceID=@serviceID";
             var parameters = new DynamicParameters();
             parameters.Add("@serviceID", id);
             using (var connection = _context.CreateConnection())
@@ -37,9 +36,9 @@ namespace RealEstate_Dapper_Api.Repositories.ServiceRepository
             }
         }
 
-        public async Task<List<ResultServiceDto>> GetAllServiceAsync()
+        public async Task<List<ResultServiceDto>> GetAllService()
         {
-            string query = "SELECT * FROM Service";
+            string query = "Select * From Service";
             using (var connection = _context.CreateConnection())
             {
                 var values = await connection.QueryAsync<ResultServiceDto>(query);
@@ -59,18 +58,17 @@ namespace RealEstate_Dapper_Api.Repositories.ServiceRepository
             }
         }
 
-        public async void UpdateService(UpdateServiceDto updateServiceDto)
+        public async Task UpdateService(UpdateServiceDto updateServiceDto)
         {
-            string query = @"Update Service Set ServiceName=@serviceName, ServiceStatus=@serviceStatus where
-                            ServiceID=@serviceID";
+            string query = "Update Service Set ServiceName=@serviceName,ServiceStatus=@serviceStatus where ServiceID=@serviceID";
             var parameters = new DynamicParameters();
             parameters.Add("@serviceName", updateServiceDto.ServiceName);
             parameters.Add("@serviceStatus", updateServiceDto.ServiceStatus);
             parameters.Add("@serviceID", updateServiceDto.ServiceID);
+
             using (var connectiont = _context.CreateConnection())
             {
                 await connectiont.ExecuteAsync(query, parameters);
-
             }
         }
     }

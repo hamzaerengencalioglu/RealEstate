@@ -9,6 +9,7 @@ namespace RealEstate_Dapper_Api.Controllers
     public class TestimonialsController : ControllerBase
     {
         private readonly ITestimonialRepository _testimonialRepository;
+
         public TestimonialsController(ITestimonialRepository testimonialRepository)
         {
             _testimonialRepository = testimonialRepository;

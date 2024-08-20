@@ -10,47 +10,40 @@ namespace RealEstate_Dapper_Api.Controllers
     public class ServicesController : ControllerBase
     {
         private readonly IServiceRepository _serviceRepository;
-
         public ServicesController(IServiceRepository serviceRepository)
         {
             _serviceRepository = serviceRepository;
         }
-            
-       
         [HttpGet]
         public async Task<IActionResult> GetServiceList()
         {
-            var value = await _serviceRepository.GetAllServiceAsync();
+            var value = await _serviceRepository.GetAllService();
             return Ok(value);
         }
-
         [HttpPost]
         public async Task<IActionResult> CreateService(CreateServiceDto createServiceDto)
         {
-            _serviceRepository.CreateService(createServiceDto);
-            return Ok("Service Section Was Succesfully Added");
+            await _serviceRepository.CreateService(createServiceDto);
+            return Ok("Hizmet Kısmı Başarılı Bir Şekilde Eklendi");
         }
-
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteService(int id)
         {
-            _serviceRepository.DeleteService(id);
-            return Ok("Service Section Was Succesfully Deleted");
+            await _serviceRepository.DeleteService(id);
+            return Ok("Hizmet Kısmı Başarılı Bir Şekilde Silindi");
         }
-
         [HttpPut]
         public async Task<IActionResult> UpdateService(UpdateServiceDto updateServiceDto)
         {
-            _serviceRepository.UpdateService(updateServiceDto);
-            return Ok("Service Section Was Succesfully Updated");
-
+            await _serviceRepository.UpdateService(updateServiceDto);
+            return Ok("Hizmet Kısmı Başarıyla Güncellendi");
         }
-
         [HttpGet("{id}")]
         public async Task<IActionResult> GetService(int id)
         {
             var value = await _serviceRepository.GetService(id);
             return Ok(value);
         }
+
     }
 }

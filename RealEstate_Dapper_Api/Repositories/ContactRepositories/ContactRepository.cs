@@ -5,21 +5,19 @@ using RealEstate_Dapper_Api.Models.DapperContext;
 
 namespace RealEstate_Dapper_Api.Repositories.ContactRepositories
 {
-
     public class ContactRepository : IContactRepository
     {
         private readonly Context _context;
-
         public ContactRepository(Context context)
         {
             _context = context;
         }
-        public void CreateContact(CreateContactDto createContactDto)
+        public Task CreateContact(CreateContactDto createContactDto)
         {
             throw new NotImplementedException();
         }
 
-        public void DeleteContact(int id)
+        public Task DeleteContact(int id)
         {
             throw new NotImplementedException();
         }
@@ -36,7 +34,7 @@ namespace RealEstate_Dapper_Api.Repositories.ContactRepositories
 
         public async Task<List<Last4ContactResultDto>> GetLast4Contact()
         {
-            string query = "SELECT Top(4) * FROM Contact Order By ContactID Desc";
+            string query = "Select Top(4) * From Contact order by ContactID Desc";
             using (var connection = _context.CreateConnection())
             {
                 var values = await connection.QueryAsync<Last4ContactResultDto>(query);
