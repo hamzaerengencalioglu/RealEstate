@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\dtos\\logindtos\\createlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\dtos\\logindtos\\createlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\views\\property\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\views\\property\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\models\\jwtresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\models\\jwtresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\dtos\\productdtos\\resultproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\dtos\\productdtos\\resultproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\realestate_dapper_ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\realestate_dapper_ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\dtos\\productdtos\\resultproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\dtos\\productdtos\\resultproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\dtos\\productdtos\\resultproductwithcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\dtos\\productdtos\\resultproductwithcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\dtos\\productdtos\\getproductbyproductiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEAED456-7C28-4F5A-A9AA-DF00D831BC84}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\dtos\\productdtos\\getproductbyproductiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\views\\property\\propertysingle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\views\\property\\propertysingle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\eren\\source\\repos\\realestate_dapper_api\\realestate_dapper_ui\\viewcomponents\\propertysingle\\_propertyslidercomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43F6083B-8728-4AF3-B0CE-9DD38999BA69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\viewcomponents\\propertysingle\\_propertyslidercomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,92 +54,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RealEstate_Dapper_UI.csproj",
-              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
-              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-15T19:49:49.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JwtResponseModel.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Models\\JwtResponseModel.cs",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Models\\JwtResponseModel.cs",
-              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Models\\JwtResponseModel.cs",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Models\\JwtResponseModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T19:40:31.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Models\\Login.cs",
-              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Models\\Login.cs",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Models\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T19:38:53.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateLoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Dtos\\LoginDtos\\CreateLoginDto.cs",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Dtos\\LoginDtos\\CreateLoginDto.cs",
-              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Dtos\\LoginDtos\\CreateLoginDto.cs",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Dtos\\LoginDtos\\CreateLoginDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T18:49:45.971Z"
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Views\\Default\\Index.cshtml",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\Default\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Views\\Default\\Index.cshtml",
+              "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\Default\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T00:28:05.951Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Program.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Program.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Program.cs",
+              "RelativeToolTip": "RealEstate_Dapper_UI\\Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T18:41:17.661Z"
+              "WhenOpened": "2024-08-20T02:33:37.117Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-15T18:21:34.871Z"
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "RealEstate_Dapper_UI\\Controllers\\PropertyController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:26:40.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAwDwAAAARAAAA",
+              "DocumentIndex": 4,
+              "Title": "ResultProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "RelativeToolTip": "RealEstate_Dapper_UI\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwAsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T18:18:53.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T02:16:16.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResultProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:16:00.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Views\\Property\\Index.cshtml",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\Property\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Views\\Property\\Index.cshtml",
+              "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\Property\\Index.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T02:07:59.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResultProductWithCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\ProductDtos\\ResultProductWithCategoryDto.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Dtos\\ProductDtos\\ResultProductWithCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\ProductDtos\\ResultProductWithCategoryDto.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Dtos\\ProductDtos\\ResultProductWithCategoryDto.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAzwAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:15:09.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetProductByProductIdDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\ProductDtos\\GetProductByProductIdDto.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Dtos\\ProductDtos\\GetProductByProductIdDto.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\ProductDtos\\GetProductByProductIdDto.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Dtos\\ProductDtos\\GetProductByProductIdDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:14:34.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Dtos\\ProductDtos\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Dtos\\ProductDtos\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Dtos\\ProductDtos\\CreateProductDto.cs",
+              "RelativeToolTip": "RealEstate_Dapper_UI\\Dtos\\ProductDtos\\CreateProductDto.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:13:52.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PropertySingle.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Views\\Property\\PropertySingle.cshtml",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\Property\\PropertySingle.cshtml",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\Views\\Property\\PropertySingle.cshtml",
+              "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\Property\\PropertySingle.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T02:11:02.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_PropertySliderComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\ViewComponents\\PropertySingle\\_PropertySliderComponentPartial.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\ViewComponents\\PropertySingle\\_PropertySliderComponentPartial.cs",
+              "ToolTip": "C:\\Users\\Eren\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\ViewComponents\\PropertySingle\\_PropertySliderComponentPartial.cs",
+              "RelativeToolTip": "RealEstate_Dapper_UI\\ViewComponents\\PropertySingle\\_PropertySliderComponentPartial.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:09:12.74Z"
             }
           ]
         }
