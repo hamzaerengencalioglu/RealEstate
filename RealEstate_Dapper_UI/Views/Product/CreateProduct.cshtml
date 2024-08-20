@@ -1,4 +1,5 @@
 ﻿@model CreateProductDto
+
 @{
     ViewData["Title"] = "CreateProduct";
     Layout = "~/Views/Admin/Index.cshtml";
@@ -8,45 +9,35 @@
     <div class="row g-4">
         <div class="col-12">
             <div class="bg-light rounded h-100 p-4">
-                <h6 class="mb-4">New Listing Addition Page</h6>
+                <h6 class="mb-4">Yeni İlan Ekleme Sayfası</h6>
                 <form method="post">
-
-                    <label>Listing Title</label>
-                    <input type="text" asp-for="title" class="form-control" />
+                    <label>İlan Başlığı</label>
+                    <input type="text" asp-for="Title" class="form-control" />
                     <br />
-
-                    <label>City</label>
-                    <input type="text" asp-for="title" class="form-control" />
+                    <label>Şehir</label>
+                    <input type="text" asp-for="Title" class="form-control" />
                     <br />
-
-                    <label>Count</label>
-                    <input type="text" asp-for="title" class="form-control" />
+                    <label>İlçe</label>
+                    <input type="text" asp-for="Title" class="form-control" />
                     <br />
-
-                    <label>Category</label>
-                    @Html.DropDownListFor(x=>x.categoryid,(List<SelectListItem>)ViewBag.v,new {@class="form-control"})
+                    <label>Kategori</label>
+                    @Html.DropDownListFor(x => x.ProductCategory, (List<SelectListItem>)ViewBag.v, new { @class = "form-control" })
                     <br />
-
-                    <label>Price</label>
-                    <input type="text" asp-for="title" class="form-control" />
+                    <label>Fiyat</label>
+                    <input type="text" asp-for="Title" class="form-control" />
                     <br />
-
-                    <label>Type</label>
-                    <input type="text" asp-for="title" class="form-control" />
+                    <label>Tür</label>
+                    <input type="text" asp-for="Title" class="form-control" />
                     <br />
-
-                    <label>Cover Photo</label>
-                    <input type="text" asp-for="title" class="form-control" />
+                    <label>Kapak Fotoğrafı</label>
+                    <input type="text" asp-for="Title" class="form-control" />
                     <br />
-
-                    <label>Listing Full Address</label>
-                    <input type="text" asp-for="title" class="form-control" />
+                    <label>İlan Açık Adresi</label>
+                    <textarea asp-for="Address" class="form-control" rows="5"></textarea>
                     <br />
-
-                    <button class="btn btn-primary">Save Listing</button>
+                    <button class="btn btn-primary">İlanı Kaydet</button>
                 </form>
             </div>
         </div>
     </div>
 </div>
-

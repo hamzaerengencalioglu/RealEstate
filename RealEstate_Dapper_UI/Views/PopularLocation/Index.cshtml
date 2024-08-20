@@ -1,4 +1,4 @@
-﻿@model List<ResultPopularLocationDto>
+﻿@model List<RealEstate_Dapper_UI.Dtos.PopularLocationDtos.ResultPopularLocationDto>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Admin/Index.cshtml";
@@ -6,9 +6,8 @@
 }
 
 <style>
-    img{
-
-        border-radius:50%;
+    img {
+        border-radius: 50%;
     }
 </style>
 
@@ -16,15 +15,15 @@
     <div class="row g-4">
         <div class="col-12">
             <div class="bg-light rounded h-100 p-4">
-                <h6 class="mb-4">Popular Locations List</h6>
+                <h6 class="mb-4">Popüler Lokasyonlar Listesi</h6>
                 <div class="table-responsive">
                     <table class="table">
                         <thead>
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">City Name</th>
-                                <th scope="col">Delete</th>
-                                <th scope="col">Update</th>
+                                <th scope="col">Şehir Adı</th>
+                                <th scope="col">Sil</th>
+                                <th scope="col">Güncelle</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -33,15 +32,14 @@
                                 count++;
                                 <tr>
                                     <th scope="row">@count</th>
-                                    <td><img src="@item.ImageUrl" height="50" width="50" /> @item.CityName   </td>
-                                    <td><a href="/PopularLocation/DeletePopularLocation/@item.LocationID" class="btn btn-outline-danger">Delete</a></td>
-                                    <td><a href="/PopularLocation/UpdatePopularLocation/@item.LocationID" class="btn btn-outline-success">Update</a></td>
-
+                                    <td><img src="@item.ImageUrl" height="50" width="50" />  @item.CityName</td>
+                                    <td><a href="/PopularLocation/DeletePopularLocation/@item.LocationID" class="btn btn-outline-danger">Sil</a></td>
+                                    <td><a href="/PopularLocation/UpdatePopularLocation/@item.LocationID" class="btn btn-outline-success">Güncelle</a></td>
                                 </tr>
                             }
                         </tbody>
                     </table>
-                    <a href="/PopularLocation/CreatePopularLocation" class="btn btn-outline-info">New Location Entry</a>
+                    <a href="/PopularLocation/CreatePopularLocation/" class="btn btn-outline-info">Yeni Lokasyon Girişi</a>
                 </div>
             </div>
         </div>

@@ -48,9 +48,9 @@ namespace RealEstate_Dapper_UI.Controllers
 
             #region Statistics6
             var client6 = _httpClientFactory.CreateClient();
-            var responseMessage6 = await client6.GetAsync("https://localhost:44358/api/Statistics/AverageRoomCount");
+            var responseMessage6 = await client6.GetAsync("https://localhost:44358/api/Statistics/AvereageRoomCount");
             var jsonData6 = await responseMessage6.Content.ReadAsStringAsync();
-            ViewBag.averageRoomCount = jsonData6;
+            ViewBag.avereageRoomCount = jsonData6;
             #endregion
 
             #region Statistics7
@@ -112,7 +112,7 @@ namespace RealEstate_Dapper_UI.Controllers
             #region Statistics15
             var client15 = _httpClientFactory.CreateClient();
             var responseMessage15 = await client15.GetAsync("https://localhost:44358/api/Statistics/PassiveCategoryCount");
-            var jsonData15 = await responseMessage14.Content.ReadAsStringAsync();
+            var jsonData15 = await responseMessage15.Content.ReadAsStringAsync();
             ViewBag.passiveCategoryCount = jsonData15;
             #endregion
 

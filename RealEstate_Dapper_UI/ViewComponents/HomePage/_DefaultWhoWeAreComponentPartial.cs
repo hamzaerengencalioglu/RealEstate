@@ -5,14 +5,13 @@ using RealEstate_Dapper_UI.Dtos.WhoWeAreDtos;
 
 namespace RealEstate_Dapper_UI.ViewComponents.HomePage
 {
-    public class _DefaultWhoWeAreComponentPartial:ViewComponent
+    public class _DefaultWhoWeAreComponentPartial : ViewComponent
     {
         private readonly IHttpClientFactory _httpClientFactory;
         public _DefaultWhoWeAreComponentPartial(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }
-
         public async Task<IViewComponentResult> InvokeAsync()
         {
             var client = _httpClientFactory.CreateClient();
@@ -21,7 +20,7 @@ namespace RealEstate_Dapper_UI.ViewComponents.HomePage
             var responseMessage = await client.GetAsync("https://localhost:44358/api/WhoWeAreDetail");
             var responseMessage2 = await client2.GetAsync("https://localhost:44358/api/Services");
 
-            if(responseMessage.IsSuccessStatusCode && responseMessage2.IsSuccessStatusCode)
+            if (responseMessage.IsSuccessStatusCode && responseMessage2.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
                 var jsonData2 = await responseMessage2.Content.ReadAsStringAsync();
@@ -35,7 +34,7 @@ namespace RealEstate_Dapper_UI.ViewComponents.HomePage
                 ViewBag.description2 = value.Select(x => x.Description2).FirstOrDefault();
                 return View(value2);
             }
-            return View(); 
+            return View();
         }
     }
 }

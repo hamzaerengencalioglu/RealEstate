@@ -8,19 +8,17 @@ namespace RealEstate_Dapper_UI.Controllers
     public class CategoryController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
-
         public CategoryController(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }
-
         public async Task<IActionResult> Index()
         {
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync("https://localhost:44358/api/Categories");
             if (responseMessage.IsSuccessStatusCode)
             {
-                string jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
                 var values = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData);
                 return View(values);
             }
@@ -31,11 +29,12 @@ namespace RealEstate_Dapper_UI.Controllers
         {
             return View();
         }
+        [HttpPost]
         public async Task<IActionResult> CreateCategory(CreateCategoryDto createCategoryDto)
         {
             var client = _httpClientFactory.CreateClient();
-            var jsonData=JsonConvert.SerializeObject(createCategoryDto);
-            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8 , "application/json");
+            var jsonData = JsonConvert.SerializeObject(createCategoryDto);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
             var responseMessage = await client.PostAsync("https://localhost:44358/api/Categories", stringContent);
             if (responseMessage.IsSuccessStatusCode)
             {
@@ -46,8 +45,8 @@ namespace RealEstate_Dapper_UI.Controllers
         public async Task<IActionResult> DeleteCategory(int id)
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.DeleteAsync($"https://localhost:44358/api/Categories/{id}");
-            if (responseMessage.IsSuccessStatusCode)
+            var reponseMessage = await client.DeleteAsync($"https://localhost:44358/api/Categories/{id}");
+            if (reponseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
             }
@@ -60,26 +59,24 @@ namespace RealEstate_Dapper_UI.Controllers
             var responseMessage = await client.GetAsync($"https://localhost:44358/api/Categories/{id}");
             if (responseMessage.IsSuccessStatusCode)
             {
-                var jsonData=await responseMessage.Content.ReadAsStringAsync();
-                var values=JsonConvert.DeserializeObject<UpdateCategoryDto>(jsonData);
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<UpdateCategoryDto>(jsonData);
                 return View(values);
             }
             return View();
         }
-
         [HttpPost]
         public async Task<IActionResult> UpdateCategory(UpdateCategoryDto updateCategoryDto)
         {
-            var client= _httpClientFactory.CreateClient();
-            var jsonData=JsonConvert.SerializeObject(updateCategoryDto);
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(updateCategoryDto);
             StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var responsMessage = await client.PutAsync("https://localhost:44358/api/Categories/", stringContent);
-            if (responsMessage.IsSuccessStatusCode)
+            var responseMessage = await client.PutAsync("https://localhost:44358/api/Categories/", stringContent);
+            if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
             }
             return View();
         }
-
     }
 }

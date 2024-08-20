@@ -10,16 +10,16 @@
     <div class="row g-4">
         <div class="col-12">
             <div class="bg-light rounded h-100 p-4">
-                <h6 class="mb-4">Who We Are List</h6>
+                <h6 class="mb-4">Biz Kimiz Listesi</h6>
                 <div class="table-responsive">
                     <table class="table">
                         <thead>
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">Title</th>
-                                <th scope="col">SubTitle</th>
-                                <th scope="col">Delete</th>
-                                <th scope="col">Update</th>
+                                <th scope="col">Başlık</th>
+                                <th scope="col">Alt Başlık</th>
+                                <th scope="col">Sil</th>
+                                <th scope="col">Güncelle</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -30,17 +30,15 @@
                                     <th scope="row">@count</th>
                                     <td>@item.Title</td>
                                     <td>@item.Subtitle</td>
-                                    <td><a href="/WhoWeAre/DeleteWhoWeAreDetail/@item.WhoWeAreDetailID" class="btn btn-outline-danger">Delete</a></td>
-                                    <td><a href="/WhoWeAre/UpdateWhoWeAreDetail/@item.WhoWeAreDetailID" class="btn btn-outline-success">Update</a></td>
-
+                                    <td><a href="/WhoWeAre/DeleteWhoWeAreDetail/@item.WhoWeAreDetailID" class="btn btn-outline-danger">Sil</a></td>
+                                    <td><a href="/WhoWeAre/UpdateWhoWeAreDetail/@item.WhoWeAreDetailID" class="btn btn-outline-success">Güncelle</a></td>
                                 </tr>
                             }
                         </tbody>
                     </table>
-                    <a href="/WhoWeAre/CreateWhoWeAreDetail" class="btn btn-outline-info">New About Us Section Entry</a>
+                    <a href="/WhoWeAre/CreateWhoWeAreDetail/" class="btn btn-outline-info">Yeni Biz Kimiz Alanı Girişi</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-

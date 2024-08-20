@@ -9,26 +9,23 @@ namespace RealEstate_Dapper_UI.Controllers
     public class ProductController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
-
         public ProductController(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }
-
         public async Task<IActionResult> Index()
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMesssage = await client.GetAsync("https://localhost:44358/api/Products/ProductListWithCategory");
-            if (responseMesssage.IsSuccessStatusCode)
+            var responseMessage = await client.GetAsync("https://localhost:44358/api/Products/ProductListWithCategory");
+            if (responseMessage.IsSuccessStatusCode)
             {
-                var jsonData=await responseMesssage.Content.ReadAsStringAsync();
-                var values=JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonData);
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonData);
                 return View(values);
             }
             return View();
         }
         [HttpGet]
-
         public async Task<IActionResult> CreateProduct()
         {
             var client = _httpClientFactory.CreateClient();
@@ -37,18 +34,16 @@ namespace RealEstate_Dapper_UI.Controllers
             var jsonData = await responseMessage.Content.ReadAsStringAsync();
             var values = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData);
 
-            List<SelectListItem> categoryValues=(from x in values.ToList()
-                                                 select new SelectListItem
-                                                 {
-                                                     Text = x.CategoryName,
-                                                     Value = x.CategoryID.ToString()
-                                                 }).ToList();
-
+            List<SelectListItem> categoryValues = (from x in values.ToList()
+                                                   select new SelectListItem
+                                                   {
+                                                       Text = x.CategoryName,
+                                                       Value = x.CategoryID.ToString()
+                                                   }).ToList();
             ViewBag.v = categoryValues;
 
             return View();
         }
-        
         public async Task<IActionResult> ProductDealOfTheDayStatusChangeToFalse(int id)
         {
             var client = _httpClientFactory.CreateClient();
@@ -58,7 +53,6 @@ namespace RealEstate_Dapper_UI.Controllers
                 return RedirectToAction("Index");
             }
             return View();
-
         }
 
         public async Task<IActionResult> ProductDealOfTheDayStatusChangeToTrue(int id)
@@ -70,7 +64,7 @@ namespace RealEstate_Dapper_UI.Controllers
                 return RedirectToAction("Index");
             }
             return View();
-
         }
+
     }
 }

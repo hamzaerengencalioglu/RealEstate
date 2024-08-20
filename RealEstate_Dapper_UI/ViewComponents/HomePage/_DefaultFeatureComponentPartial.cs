@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace RealEstate_Dapper_UI.ViewComponents.HomePage
 {
@@ -9,6 +8,5 @@ namespace RealEstate_Dapper_UI.ViewComponents.HomePage
         {
             return View();
         }
-
     }
 }

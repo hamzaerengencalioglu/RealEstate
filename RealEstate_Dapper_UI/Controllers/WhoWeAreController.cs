@@ -9,21 +9,18 @@ namespace RealEstate_Dapper_UI.Controllers
     public class WhoWeAreController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
-
         public WhoWeAreController(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }
-
         public async Task<IActionResult> Index()
         {
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync("https://localhost:44358/api/WhoWeAreDetail");
             if (responseMessage.IsSuccessStatusCode)
             {
-                string jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
                 var values = JsonConvert.DeserializeObject<List<ResultWhoWeAreDetailDto>>(jsonData);
-
                 return View(values);
             }
             return View();
@@ -33,6 +30,7 @@ namespace RealEstate_Dapper_UI.Controllers
         {
             return View();
         }
+        [HttpPost]
         public async Task<IActionResult> CreateWhoWeAreDetail(CreateWhoWeAreDetailDto createWhoWeAreDetailDto)
         {
             var client = _httpClientFactory.CreateClient();
@@ -48,8 +46,8 @@ namespace RealEstate_Dapper_UI.Controllers
         public async Task<IActionResult> DeleteWhoWeAreDetail(int id)
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.DeleteAsync($"https://localhost:44358/api/WhoWeAreDetail/{id}");
-            if (responseMessage.IsSuccessStatusCode)
+            var reponseMessage = await client.DeleteAsync($"https://localhost:44358/api/WhoWeAreDetail/{id}");
+            if (reponseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
             }
@@ -68,15 +66,14 @@ namespace RealEstate_Dapper_UI.Controllers
             }
             return View();
         }
-
         [HttpPost]
         public async Task<IActionResult> UpdateWhoWeAreDetail(UpdateWhoWeAreDetailDto updateWhoWeAreDetailDto)
         {
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(updateWhoWeAreDetailDto);
             StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var responsMessage = await client.PutAsync("https://localhost:44358/api/WhoWeAreDetail/", stringContent);
-            if (responsMessage.IsSuccessStatusCode)
+            var responseMessage = await client.PutAsync("https://localhost:44358/api/WhoWeAreDetail/", stringContent);
+            if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
             }
