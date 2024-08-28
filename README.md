@@ -1,4 +1,4 @@
-#RealEstate
+## RealEstate
 RealEstate projesine hoş geldiniz! Bu depo, ASP.NET Core ve Dapper kullanılarak geliştirilen bir emlak yönetim web uygulamasının kaynak kodlarını içermektedir. Uygulama, kullanıcıların emlak ilanlarını görüntülemesine, istatistikleri incelemesine ve emlakla ilgili çeşitli işlemleri gerçekleştirmesine olanak tanır.
 
 Özellikler
